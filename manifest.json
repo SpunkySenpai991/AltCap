@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "FrameGrab",
+  "version": "1.0",
+  "description": "Instant 1-Click Video Capture. Press 'Alt' to save HQ video frames without controls or overlays.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
