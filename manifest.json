@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "FrameGrab",
+  "name": "AltCap",
   "version": "1.0",
   "description": "Instant 1-Click Video Capture. Press 'Alt' to save HQ video frames without controls or overlays.",
   "permissions": [
@@ -22,4 +22,5 @@
       "js": ["content.js"]
     }
   ]
+
 }
